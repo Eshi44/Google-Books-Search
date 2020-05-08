@@ -2,6 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const path = require("path");
 const mongoose = require("mongoose");
+const routes= require ("./routes");
 
 const PORT = process.env.PORT || 3001;
 
@@ -16,6 +17,9 @@ app.get("/api/config", (req, res) => {
 		currentPort: PORT,
 	});
 });
+
+
+app.use(routes)
 
 app.use(express.static("client/build"));
 
