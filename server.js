@@ -19,7 +19,7 @@ app.get("/api/config", (req, res) => {
 	});
 });
 
-
+// routes
 app.use(routes)
 
 app.use(express.static("client/build"));
