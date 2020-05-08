@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavBar from "./components/Shared/NavBar";
-import Footer from "./components/Shared/Footer";
+import Footer from "./components/Shared/footer";
 import HomeSearch from "./containers/HomeSearch";
 
 function App() {
