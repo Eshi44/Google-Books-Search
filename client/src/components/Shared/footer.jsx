@@ -5,7 +5,7 @@ function Footer() {
 		<>
 			<footer className="page-footer">
 				<div className="container-fluid text-center">
-					<p>Google Books</p>
+					<p>Google Book</p>
 				</div>
 			</footer>
 		</>
