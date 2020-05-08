@@ -1,12 +1,11 @@
 import React from "react";
-import Carousel from "../components/Shared/Carousel";
+import Header from "../components/Shared/Header";
 
 function HomeSearch() {
 	return (
 		<>
-
-			<Carousel />
-            <h1>Search</h1>
+			<Header />
+			<h1>Search</h1>
 		</>
 	);
 }
